@@ -44,6 +44,7 @@ a {
 .icons{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .flexibility {
@@ -263,6 +264,12 @@ a {
     
 }
 
+.ttl-sec-four{
+    padding-top: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .ppl-list{
     padding-left: 200px;
     display: flex;
@@ -278,6 +285,11 @@ a {
 .developers{
     margin-right: 30px;
     
+}
+
+.developers{
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px var(--shadow-x), 0px 1px 2px var(--shadow-y), 0px 2px 2px var(--shadow-z);
 }
 
 .title-article {
@@ -318,6 +330,8 @@ a {
     
     /*text-align: center;*/
     letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
 }
 
 .text-developers {
@@ -328,6 +342,9 @@ a {
     
     /*text-align: center;*/
     letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+
 }
 
 .title-button {
@@ -384,8 +401,48 @@ a {
 
 .active,
 .link:hover,
-.link:focus {
+.link:focus,
+.link:hover #contact-icon,
+.link:focus #contact-icon {
     color: var(--color-blue);
+    fill: var(--color-blue);
+}
+
+.svg-client:hover rect,
+.svg-client:focus rect{
+    stroke: var(--color-blue); 
+}
+
+.svg-client:hover path,
+.svg-client:focus path{
+    fill: var(--color-blue); 
+}
+
+
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.dev-soc:hover path,
+.dev-soc:focus path{
+    fill: var(--color-blue);
+}
+
+.dev-soc:hover #soc-media{
+    fill: var(--color-white);
+}
+
+.soc-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 
 .contact-head {
@@ -432,4 +489,35 @@ a {
 
 .social-icons{
     padding-right: 10px;
+}
+
+.clients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 50px;
+    margin-top: 0;
+    padding-bottom: 94px;
+}
+
+.client{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 94px;
+}
+
+.filter-btn{
+    padding: 6px 22px;
+}
+
+.btn-fltr{
+    padding-left: 4px;
+    padding-right: 4px;
 }
