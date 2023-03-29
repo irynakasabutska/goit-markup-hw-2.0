@@ -353,6 +353,8 @@ a {
     line-height: 2;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
+    margin: 0;
+    padding-bottom: 4px;
 
 }
 
@@ -362,6 +364,7 @@ a {
     line-height: 1.88;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
+    margin: 0;
 }
 
 .last-sec{
@@ -520,4 +523,14 @@ a {
 .btn-fltr{
     padding-left: 4px;
     padding-right: 4px;
+}
+
+.card-techocrack{
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    height: 404px;
+}
+
+.card-title{
+    padding: 20px 24px 20px 24px;
 }
