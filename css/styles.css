@@ -525,12 +525,24 @@ a {
     padding-right: 4px;
 }
 
+
+.project-items{
+    display: grid;
+    
+}
+
 .card-techocrack{
     border: 1px solid #EEEEEE;
     width: 370px;
     height: 404px;
+    margin: 15px;
 }
 
 .card-title{
     padding: 20px 24px 20px 24px;
+}
+
+.card-techocrack:focus,
+.card-techocrack:hover{
+    box-shadow: 0px 4px 4px var(--color-box-shadow);
 }
