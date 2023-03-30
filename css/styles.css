@@ -137,7 +137,7 @@ a {
 
 .hero {
     background-color: var(--hero-footer);
-    background-image: url(.../images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     width: 1600px;
     height: 600px;
     left: 0px;
@@ -554,39 +554,39 @@ a {
 }
 
 .bkgrnd-tech{
-    background-image: url(.../images/technocrack.jpg);
+    background-image: url(../images/technocrack.jpg);
 }
 
 .bkgrnd-newor{
-    background-image: url(.../images/neworlean.jpg);
+    background-image: url(../images/neworlean.jpg);
 }
 
 .bkgrnd-seafood{
-    background-image: url(.../images/seafood.jpg);
+    background-image: url(../images/seafood.jpg);
 }
 
 .bkgrnd-prime{
-    background-image: url(.../images/prime.jpg);
+    background-image: url(../images/prime.jpg);
 }
 
 .bkgrnd-boxes{
-    background-image: url(.../images/boxes.jpg);
+    background-image: url(../images/boxes.jpg);
 }
 
 .bkgrnd-insp{
-    background-image: url(.../images/inspiration.jpg);
+    background-image: url(../images/inspiration.jpg);
 }
 
 .bkgrnd-limit{
-    background-image: url(.../images/limitededitoin.jpg);
+    background-image: url(../images/limitededitoin.jpg);
 }
 
 .bkgrnd-lab{
-    background-image: url(.../images/lab.jpg);
+    background-image: url(../images/lab.jpg);
 }
 
 .bkgrnd-grow{
-    background-image: url(.../images/growinfbusiness.jpg);
+    background-image: url(../images/growinfbusiness.jpg);
 }
 
 .card-div{
