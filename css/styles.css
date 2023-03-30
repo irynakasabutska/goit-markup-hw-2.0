@@ -553,10 +553,44 @@ a {
     box-shadow: 0px 4px 4px var(--color-box-shadow);
 }
 
+.bkgrnd-tech{
+    background-image: url(/images/technocrack.jpg);
+}
 
+.bkgrnd-newor{
+    background-image: url(/images/neworlean.jpg);
+}
+
+.bkgrnd-seafood{
+    background-image: url(/images/seafood.jpg);
+}
+
+.bkgrnd-prime{
+    background-image: url(/images/prime.jpg);
+}
+
+.bkgrnd-boxes{
+    background-image: url(/images/boxes.jpg);
+}
+
+.bkgrnd-insp{
+    background-image: url(/images/inspiration.jpg);
+}
+
+.bkgrnd-limit{
+    background-image: url(/images/limitededitoin.jpg);
+}
+
+.bkgrnd-lab{
+    background-image: url(/images/lab.jpg);
+}
+
+.bkgrnd-grow{
+    background-image: url(/images/growinfbusiness.jpg);
+}
 
 .card-div{
-    background-image: url(/images/technocrack.jpg);
+    
     width: 370px;
     height: 294px; 
     margin: 0;
