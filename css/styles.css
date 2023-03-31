@@ -548,10 +548,7 @@ a {
     padding: 20px 24px 20px 24px;
 }
 
-.card-techocrack:focus,
-.card-techocrack:hover{
-    box-shadow: 0px 4px 4px var(--color-box-shadow);
-}
+
 
 .bkgrnd-tech{
     background-image: url(../images/technocrack.jpg);
@@ -609,12 +606,19 @@ a {
     justify-content: center;
     padding: 63px 24px;
     color: var(--color-white);
-    transition: .5s ease;
+    transition: .3s ease;
 }
 
-.card-hover:focus,
-.card-hover:hover {
+
+.card-techocrack:focus,
+.card-techocrack:hover{
+    box-shadow: 0px 4px 4px var(--color-box-shadow);
+}
+
+.card-techocrack:focus > .card >  .card-div > .card-hover,
+.card-techocrack:hover > .card >  .card-div > .card-hover {
     opacity: 1;
     background: rgba(33, 150, 243, 0.9);
     cursor: pointer;
+    
 }
