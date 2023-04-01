@@ -528,6 +528,10 @@ a {
 
 .project-items{
     display: grid;
+    grid-template-columns: 400px 400px 400px;
+    padding-left: 185px;
+    margin-top: 19px;
+    margin-bottom: 79px;
     
 }
 
