@@ -36,15 +36,24 @@ a {
 
 .nav-head {
     font-weight: 500;
-    padding: 0 25px;
+    margin: 0;
+    padding: 0;
     size: 14px;
     
 }
 
+.portfolio{
+    margin: 0 50px 0 50px;
+}
 .icons{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
+}
+
+.telefone{
+    margin-left: 30px;
 }
 
 .flexibility {
@@ -75,8 +84,9 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*justify-content: space-around;*/
-    
+    justify-content: space-around;
+    width: 1600px;
+    height: 80px;
     
 }
 
@@ -85,7 +95,8 @@ a {
     flex-direction: row;
     align-items: center;
     /*justify-content: space-around;*/
-    
+    margin: 0;
+    padding: 0;
 }
 
 .nav-btn{
@@ -93,7 +104,8 @@ a {
     flex-direction: row;
     align-items: center;
     /*justify-content: space-around;*/
-    
+    margin: 0;
+    padding: 0;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -101,7 +113,8 @@ a {
     font-size: 26px;
     color: var(--color-blue);
     line-height: 1.2;
-    padding: 25px 68px 25px 200px;
+    /*padding: 25px 68px 25px 200px;*/
+    margin-right: 93px;
 }
 
 .logo-head {
@@ -122,17 +135,22 @@ a {
 }
 
 .contacts{
-    margin-left: 150px;
-    margin-right: 100px;
+    margin: 0;
+    padding: 0;
 }
 
 .cont-list{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*justify-content: space-around;*/
+    justify-content: space-between;
     padding-right: 100px;
-    
+    margin: 0;
+    padding: 0;
+}
+
+.main-sec{
+    width: 1600px;
 }
 
 .hero {
@@ -370,7 +388,7 @@ a {
 .last-sec{
     background-color: var(--hero-footer);
     height: 252px;
-    
+    width: 1600px;
 }
 
 .footer {
@@ -450,8 +468,8 @@ a {
 
 .contact-head {
     color: var(--color-text);
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-foot {
@@ -528,8 +546,9 @@ a {
 
 .project-items{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: /*1fr 1fr 1fr*/ 400px 400px 400px;
     padding-left: 185px;
+    padding-right: 200px;
     margin-top: 19px;
     margin-bottom: 79px;
     
